@@ -1,0 +1,33 @@
+galaxy_info:
+  author: Matti De Grauwe
+  description: Elastic beats v 5.x for LSST SQuaRE.
+  company: LSST SQuaRE
+  issue_tracker_url: https://github.com/lsst-sqre/ansible-beats/issues
+  license: MIT
+  min_ansible_version: 2.1
+  platforms:
+  - name: EL
+    versions:
+      - 7
+  - name: Ubuntu
+    versions:
+      - trusty
+      - xenial
+  #- name: Debian
+  #  versions:
+  #  - all
+  #  - etch
+  #  - jessie
+  #  - lenny
+  #  - squeeze
+  #  - wheezy
+  galaxy_tags:
+    - centos
+    - beats
+    - elastic
+    - filebeat
+    - metricbeat
+    - packetbeat
+    - system
+    - topbeat
+    - ubuntu

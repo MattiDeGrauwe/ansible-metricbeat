@@ -1,0 +1,7 @@
+---
+# Check beats variables and host.
+
+- name: Check if beats_package_name ({{ beats_package_name }}) is supported.
+  fail:
+    msg: "beats_package_name ({{ beats_package_name }}) is not supported."
+  when: beats_package_name not in beats_supported_package_names

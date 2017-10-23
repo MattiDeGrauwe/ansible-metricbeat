@@ -1,0 +1,9 @@
+---
+# vars file for beats
+
+beats_supported_package_names:
+  - metricbeat
+  - filebeat
+  - packetbeat
+  - heartbeat
+
