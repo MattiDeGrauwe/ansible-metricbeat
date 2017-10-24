@@ -10,8 +10,9 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - { role: lsst-sqre.beats }
-
+        - mattidegrauwe.beats
+      vars: 
+      	beats_config_file: "path to configuration file"   	
 Variables
 ---------
 
@@ -23,7 +24,7 @@ For complete documentation on configuration options see the [metricbeat](https:/
 
 `beats_install` *(default true)* Whether to install the beat.
 
-`beats_config_file` * set url to the desired configuration file
+`beats_config_file` *(required)* set url to the desired configuration file
 
 Acknowledgements
 ----------------
