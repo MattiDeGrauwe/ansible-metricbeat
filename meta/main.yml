@@ -1,7 +1,6 @@
 galaxy_info:
   author: Matti De Grauwe
-  description: Elastic beats v 5.x for LSST SQuaRE.
-  company: LSST SQuaRE
+  description: Beats
   issue_tracker_url: https://github.com/lsst-sqre/ansible-beats/issues
   license: MIT
   min_ansible_version: 2.1

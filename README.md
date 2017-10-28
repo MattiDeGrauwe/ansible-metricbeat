@@ -3,16 +3,16 @@ ansible-beats
 
 [![Build Status](https://travis-ci.org/lsst-sqre/ansible-beats.svg?branch=master)](https://travis-ci.org/lsst-sqre/ansible-beats)
 
-Install and configure Elastic [beats](https://www.elastic.co/products/beats) v5 for LSST SQuaRE infrastructure.
+Install and configure Elastic [beats](https://www.elastic.co/products/beats).
 
 Example Playbook
 ----------------
 
     - hosts: servers
       roles:
-        - mattidegrauwe.beats
+        - MattiDeGrauwe.beats
       vars: 
-      	beats_config_file: "path to configuration file"   	
+      	- beats_config_file: "path to configuration file"   	
 Variables
 ---------
 
