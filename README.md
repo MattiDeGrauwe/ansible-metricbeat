@@ -29,7 +29,7 @@ For complete documentation on configuration options see the [metricbeat](https:/
 Acknowledgements
 ----------------
 
-This role is based on [Jmatt's](https://galaxy.ansible.com/jmatt/beats/) Ansible Galaxy role "beats"(https://galaxy.ansible.com/cyverse/beats/). It is a more complete implementation and less opinionated than this role. But it doesn't support v5 or follow the variable naming convention my roles follow. Thus this new role.
+This role is based on [Jmatt's](https://galaxy.ansible.com/jmatt/beats/) Ansible Galaxy role "beats". It is a more complete implementation and less opinionated than this role. But it doesn't support v5 or follow the variable naming convention my roles follow. Thus this new role.
 
 
 License
