@@ -26,6 +26,12 @@ For complete documentation on configuration options see the [metricbeat](https:/
 
 `beats_config_file` *(required)* set url to the desired configuration file
 
+Metricbeat comes packaged with a script that you can use to import the example dashboards, visualizations, and searches for Metricbeat. The script also creates an index pattern, metricbeat-*, for Metricbeat.
+
+`beats_dashboard_output_host` *(default "localhost")* Initializes the host where the output of the predefined dashboards should be generated.
+
+`beats_dashboard_output_port` *(default "9200")* Initializes the port where the output of the predefined dashboards should be generated.
+
 Acknowledgements
 ----------------
 
