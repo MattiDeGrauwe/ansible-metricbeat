@@ -13,4 +13,4 @@
 - include: config.yml
 
 - name: Import predefined dashboards
-  shell: /usr/share/metricbeat/scripts/import_dashboards -es https://{{beats_dashboard_output_host}}:{{beats_dashboard_output_port}}
+  shell: /usr/share/metricbeat/scripts/import_dashboards -es {{ beats_dashboard_output_url }}
