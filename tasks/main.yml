@@ -1,8 +1,6 @@
 ---
 # tasks file for beats
 
-- include: check.yml
-
 - block:
   - include: redhat.yml
     when: ansible_os_family == "RedHat"

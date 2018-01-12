@@ -2,10 +2,10 @@
 
 - name: restart beat
   service:
-    name: "{{ beats_package_name }}"
+    name: "metricbeat"
     state: restarted
 
 - name: enable beat
   service:
-    name: "{{ beats_package_name }}"
+    name: "metricbeat"
     enabled: true
