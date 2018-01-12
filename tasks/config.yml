@@ -1,8 +1,8 @@
 ---
 # Configure beats package.
 
-- name: "Configure {{ beats_package_name }}."
+- name: "Configure metricbeat."
   copy:
     src: "{{ beats_config_file }}"
-    dest: "/etc//{{ beats_package_name }}/{{ beats_package_name }}.yml"
+    dest: "/etc//metricbeat/metricbeat.yml"
   notify: restart beat

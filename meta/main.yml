@@ -24,9 +24,6 @@ galaxy_info:
     - centos
     - beats
     - elastic
-    - filebeat
     - metricbeat
-    - packetbeat
     - system
-    - topbeat
     - ubuntu
