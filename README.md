@@ -10,7 +10,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-        - MattiDeGrauwe.beats
+        - MattiDeGrauwe.metricbeat
       vars: 
       	- beats_config_file: "path to configuration file"   	
 Variables
